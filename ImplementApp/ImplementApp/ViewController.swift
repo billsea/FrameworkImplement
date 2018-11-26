@@ -8,14 +8,18 @@
 
 import UIKit
 import TestFramework
+import Localize_Swift
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+   
+    var tm: testModel?
     
-    var tmp = testModel.self
+    tm?.modelValue = "value".localized()
     
+
   }
 
   override func didReceiveMemoryWarning() {

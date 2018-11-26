@@ -1,0 +1,21 @@
+PODS:
+  - Localize-Swift (2.0.0)
+  - TestFramework (0.5.0):
+    - Localize-Swift (~> 2.0)
+
+DEPENDENCIES:
+  - TestFramework
+
+SPEC REPOS:
+  https://github.com/billsea/specs.git:
+    - TestFramework
+  https://github.com/cocoapods/specs.git:
+    - Localize-Swift
+
+SPEC CHECKSUMS:
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  TestFramework: ed28a02b00b20c219106265432a6229625d443b6
+
+PODFILE CHECKSUM: 2e5ef3f23497cef7bffec5d6f1d3f272ab447a6c
+
+COCOAPODS: 1.5.3
